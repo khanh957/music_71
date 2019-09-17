@@ -1,7 +1,8 @@
-package com.sun_asterisk.soundcloud_71;
+package com.sun_asterisk.soundcloud_71.screen.main;
 
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
+import com.sun_asterisk.soundcloud_71.R;
 
 public class MainActivity extends AppCompatActivity {
 
