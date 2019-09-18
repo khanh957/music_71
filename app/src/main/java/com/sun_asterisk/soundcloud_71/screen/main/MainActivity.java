@@ -20,7 +20,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
         initView();
         initListener();
     }
@@ -43,7 +42,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         mTextViewMusic = findViewById(R.id.textViewMusic);
         mTabLayoutMusic = findViewById(R.id.tabLayoutMusic);
         mViewPagerMusic = findViewById(R.id.viewPagerMusic);
-
         MainAdapter mainAdapter = new MainAdapter(getSupportFragmentManager());
         mViewPagerMusic.setAdapter(mainAdapter);
         mTabLayoutMusic.setupWithViewPager(mViewPagerMusic);
